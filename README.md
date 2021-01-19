@@ -1,4 +1,4 @@
-# goroutine-waiter
+# gwait
 A simple utility to de-duplicate the job of waiting for goroutines to close
 
 ```go

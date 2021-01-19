@@ -4,7 +4,7 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/piersy/goroutine-waiter/gwait"
+	"github.com/piersy/gwait"
 	"github.com/stretchr/testify/assert"
 )
 

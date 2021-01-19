@@ -1,10 +1,14 @@
 package gwait
 
-import "sync"
+import (
+	"context"
+	"sync"
+)
 
 // Waiter provides a mechanism to wait for a group of goroutines to complete.
 type Waiter struct {
-	wg *sync.WaitGroup
+	wg  *sync.WaitGroup
+	ctx context.Context
 }
 
 // NewWaiter returns a new Waiter instance.

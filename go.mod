@@ -1,4 +1,4 @@
-module github.com/piersy/goroutine-waiter
+module github.com/piersy/gwait
 
 go 1.14
 
